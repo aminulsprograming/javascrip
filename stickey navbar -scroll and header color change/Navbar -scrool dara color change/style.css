@@ -1,0 +1,101 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    /* background: pink; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:100;
+    transition: .5s;
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.099);
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 200vh;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #ffffff;
+
+}
+
+
+
+
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background: url(img/home-menu-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-color: powderblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#about{
+    background-color: powderblue;
+}
+nav{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    transition: .5s;
+}
+.logo{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    position: relative;
+    transition: .5s;
+}
+header ul li{
+    display:inline-block ;
+    position: relative;
+    transition: .5s;
+}
+header ul li a{
+   text-decoration: none;
+   color: white;
+   list-style: none;
+   padding:10px 15px ;
+   position: relative;
+    transition: .5s;
+}
+.sticky{
+    background-color: white;
+}
+.sticky .logo{
+    color: black;
+}
+.sticky nav ul li a{
+    color: black;
+}

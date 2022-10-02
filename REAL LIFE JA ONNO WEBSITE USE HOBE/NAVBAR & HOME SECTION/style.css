@@ -1,0 +1,153 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    /* background: pink; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:100;
+    transition: .5s;
+    box-shadow: 0 0 2px 3px rgba(128, 128, 128, 0.172);
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+   
+
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #ffffff;
+
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background: url(img/home-menu-img.jpg);
+    /* opacity: 0.3; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+   
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-color: powderblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#about{
+    background-color: powderblue;
+}
+nav{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    transition: .5s;
+}
+.logo{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    position: relative;
+    transition: .5s;
+}
+header ul li{
+    display:inline-block ;
+    position: relative;
+    transition: .5s;
+}
+header ul li a:hover{
+    color:#daa520 ;
+    transition: .5s;
+}
+nav ul li a:hover{
+    /* background-color:#daa520 ; */
+    border-bottom:1px solid #daa520;
+    color:#daa520 ;
+    transition: .5s;
+}
+header ul li a{
+   text-decoration: none;
+   color: white;
+   list-style: none;
+   padding:10px 15px ;
+   position: relative;
+    transition: .5s;
+}
+.sticky{
+    background-color: white;
+}
+.sticky .logo{
+    color: black;
+}
+.sticky nav ul li a{
+    color: black;
+}
+.sticky nav ul li a:hover{
+    color: white;
+}
+.tbutton a{
+   text-decoration: none;
+   font-size: 16px;
+   text-transform: uppercase; 
+   color: white;
+   font-weight: 600;
+}
+/* .glyphicon-menu-down::before { */
+    /* content: "\e259"; */
+/* } */
+.home-two{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.para-home{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: initial;
+}
+.tbutton{
+    text-align: center;
+    
+    
+}
+.tbutton a{
+   border: 1px solid #daa520;
+   padding: 15px 30px;
+   margin-right:15px;
+    
+}
+.tbutton a:hover{
+   background-color:  #daa520;
+   transition: 0.5s;
+  
+    
+}

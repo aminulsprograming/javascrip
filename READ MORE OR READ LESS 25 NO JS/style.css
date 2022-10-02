@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border-radius: 20px;
+    margin: 30px;
+    padding: 50px;
+    box-shadow:5px 5px 5px 5px rgb(122, 102, 102) ;
+}
+.text {
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+.read-more-btn{
+    padding: 10px 20px;
+}
+.span-read-more{
+    display: none;
+}
+.text.show-more .span-read-more{
+    display: inline;
+}

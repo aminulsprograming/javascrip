@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.section1{
+    background-color: aqua;
+}
+.section2{
+    background-color:brown;
+}
+.section3{
+    background-color: blue;
+}
+.section4{
+    background-color:salmon;
+}
+.to-top{
+
+    position: fixed;
+    right: 32px;
+    bottom: 16px;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 50%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    transition: all .5s;
+
+
+}
+.to-top.active{
+    opacity:1;
+    pointer-events:auto;
+}
